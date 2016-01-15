@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApplication2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Login" Height="350" Width="525">
     <Grid>
-        
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="43" Margin="114,113,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="273" FontSize="29.333" Opacity="0.5" Cursor=""/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="46" Margin="114,161,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="273" FontSize="29.333" Opacity="0.5"/>
     </Grid>
 </Window>
