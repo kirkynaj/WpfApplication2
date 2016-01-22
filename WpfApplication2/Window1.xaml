@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfApplication2.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication2"
+        mc:Ignorable="d"
+        Title="Window1" Height="768" Width="1366"
+        >
+    <Grid>
+        <Image x:Name="header_jpg" Margin="0,-1,0,665" Source="header.jpg" Stretch="Fill" RenderTransformOrigin="0.5,0.5"/>
+        <Label x:Name="label" Content="Extract Sales Inc." HorizontalAlignment="Left" Height="57" Margin="7,1,0,0" VerticalAlignment="Top" Width="212" Foreground="White" FontSize="24"/>
+        <Image x:Name="Layer_jpg" Margin="0,63,1169,0" Source="Layer.jpg" Stretch="Fill"/>
+    </Grid>
+</Window>

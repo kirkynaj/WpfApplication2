@@ -5,9 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApplication2"
         mc:Ignorable="d"
-        Title="Login" Height="350" Width="525">
+        Title="Login" Height="350" Width="525"
+        WindowStyle="None"
+        >
     <Grid>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="43" Margin="114,113,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="273" FontSize="29.333" Opacity="0.5" Cursor=""/>
-        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="46" Margin="114,161,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="273" FontSize="29.333" Opacity="0.5"/>
+        <Grid.Background>
+            <ImageBrush/>
+        </Grid.Background>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="24" Margin="124,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="247" FontSize="24" Opacity="0.5" Cursor=""/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="24" Margin="124,214,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="247" FontSize="24" Opacity="0.5"/>
+        <Button x:Name="button" Content="Login" HorizontalAlignment="Left" Margin="216,253,0,0" VerticalAlignment="Top" Width="75" Background="#0070c6" Foreground="#FFFFFF" BorderBrush="{x:Null}" Height="24"/>
+        <Button x:Name="Exit" Content="Exit" HorizontalAlignment="Left" Margin="296,253,0,0" VerticalAlignment="Top" Width="75" Background="#0070c6" Foreground="#FFFFFF" BorderBrush="{x:Null}" Height="24" Click="Exit_Click"/>
+        <Label x:Name="label" Content="Username" HorizontalAlignment="Left" Height="24" Margin="124,137,0,0" VerticalAlignment="Top" Width="116"/>
+        <Label x:Name="label_Copy" Content="Password" Height="24" Margin="124,190,277,0" VerticalAlignment="Top"/>
+        <Image x:Name="pic_png" Margin="10,10,19,210" Source="pic.png" Stretch="Fill"/>
+
+
     </Grid>
 </Window>
