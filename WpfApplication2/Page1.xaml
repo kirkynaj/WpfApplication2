@@ -5,10 +5,41 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:WpfApplication2"
       mc:Ignorable="d" 
-      d:DesignHeight="300" d:DesignWidth="300"
-      Title="Page1">
+      d:DesignHeight="700" d:DesignWidth="1200"
+      Title="Page1" Background="White">
 
     <Grid>
-        
+        <Label x:Name="label" Content="Inventory Transaction Entry" HorizontalAlignment="Left" Height="43" Margin="25,10,0,0" VerticalAlignment="Top" Width="531" FontSize="26.667" FontFamily="Segoe UI Semibold"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="24" Margin="146,196,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="185"/>
+        <Button x:Name="reset" Content="Reset" HorizontalAlignment="Left" Height="20" Margin="39,78,0,0" VerticalAlignment="Top" Width="51"/>
+        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Height="25" Margin="146,225,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="185"/>
+        <Label x:Name="label1" Content="Transaction No." HorizontalAlignment="Left" Margin="39,119,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.658,0.654"/>
+        <Label x:Name="label1_Copy" Content="Transaction Type" HorizontalAlignment="Left" Margin="39,145,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.658,0.654"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="147,119,0,0" VerticalAlignment="Top" Width="184"/>
+        <ComboBox x:Name="comboBox_Copy" HorizontalAlignment="Left" Margin="147,146,0,0" VerticalAlignment="Top" Width="184"/>
+        <Label x:Name="label1_Copy1" Content="Document No." HorizontalAlignment="Left" Margin="39,196,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.658,0.654"/>
+        <Label x:Name="label1_Copy2" Content="Transaction Date" HorizontalAlignment="Left" Margin="39,225,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.658,0.654"/>
+        <ComboBox x:Name="comboBox_Copy1" HorizontalAlignment="Left" Margin="563,119,0,0" VerticalAlignment="Top" Width="184"/>
+        <ComboBox x:Name="comboBox_Copy2" HorizontalAlignment="Left" Margin="563,149,0,0" VerticalAlignment="Top" Width="184"/>
+        <ComboBox x:Name="comboBox_Copy3" HorizontalAlignment="Left" Margin="563,200,0,0" VerticalAlignment="Top" Width="184"/>
+        <ComboBox x:Name="comboBox_Copy4" HorizontalAlignment="Left" Margin="563,229,0,0" VerticalAlignment="Top" Width="184"/>
+        <ComboBox x:Name="comboBox_Copy5" HorizontalAlignment="Left" Margin="981,119,0,0" VerticalAlignment="Top" Width="184"/>
+        <ComboBox x:Name="comboBox_Copy6" HorizontalAlignment="Left" Margin="981,149,0,0" VerticalAlignment="Top" Width="184"/>
+        <ComboBox x:Name="comboBox_Copy7" HorizontalAlignment="Left" Margin="147,274,0,0" VerticalAlignment="Top" Width="184"/>
+        <TextBox x:Name="textBox_Copy1" HorizontalAlignment="Left" Height="25" Margin="147,301,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="601"/>
+        <Label x:Name="label1_Copy3" Content="Source Warehouse" HorizontalAlignment="Left" Margin="425,119,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.382,0.833"/>
+        <Label x:Name="label1_Copy4" Content="Location" HorizontalAlignment="Left" Margin="425,149,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.658,0.654"/>
+        <Label x:Name="label1_Copy5" Content="Destination Warehouse" HorizontalAlignment="Left" Margin="425,200,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.658,0.654"/>
+        <Label x:Name="label1_Copy6" Content="Location" HorizontalAlignment="Left" Margin="425,229,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.658,0.654"/>
+        <Label x:Name="label1_Copy7" Content="Price Category" HorizontalAlignment="Left" Margin="871,119,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.658,0.654"/>
+        <Label x:Name="label1_Copy8" Content="Select Price" HorizontalAlignment="Left" Margin="871,149,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.658,0.654"/>
+        <Label x:Name="label1_Copy9" Content="Reason Code" HorizontalAlignment="Left" Margin="39,274,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.658,0.654"/>
+        <Label x:Name="label1_Copy10" Content="Comment/Ref. No." HorizontalAlignment="Left" Margin="39,301,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.658,0.654"/>
+        <Button x:Name="button" Content="Line Items" HorizontalAlignment="Left" Height="24" Margin="347,370,0,0" VerticalAlignment="Top" Width="190"/>
+        <Button x:Name="button_Copy" Content="Print Entry" HorizontalAlignment="Left" Height="24" Margin="557,370,0,0" VerticalAlignment="Top" Width="190"/>
+        <Button x:Name="button_Copy1" Content="Cancel" HorizontalAlignment="Left" Height="24" Margin="768,370,0,0" VerticalAlignment="Top" Width="190"/>
+        <Label x:Name="label1_Copy11" Content="Salesman " HorizontalAlignment="Left" Margin="425,255,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.658,0.654"/>
+        <Label x:Name="label1_Copy12" Content="Salesman " HorizontalAlignment="Left" Margin="425,174,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.658,0.654"/>
+
     </Grid>
 </Page>

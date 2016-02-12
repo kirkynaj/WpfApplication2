@@ -14,3 +14,6 @@ C:\Users\KirkJann\Documents\Visual Studio 2015\Projects\WpfApplication2\WpfAppli
 C:\Users\KirkJann\Documents\Visual Studio 2015\Projects\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.csproj.GenerateResource.Cache
 C:\Users\KirkJann\Documents\Visual Studio 2015\Projects\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.exe
 C:\Users\KirkJann\Documents\Visual Studio 2015\Projects\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.pdb
+C:\Users\Kirk Jann V. Garcia\Documents\Visual Studio 2015\Projects\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.exe.config
+C:\Users\Kirk Jann V. Garcia\Documents\Visual Studio 2015\Projects\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.exe
+C:\Users\Kirk Jann V. Garcia\Documents\Visual Studio 2015\Projects\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.pdb
